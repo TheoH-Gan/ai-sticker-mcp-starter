@@ -1,0 +1,53 @@
+[
+  {
+    "id": "demo-dog-kiss",
+    "pack": "Demo Dog",
+    "name": "Kiss",
+    "aliases": ["smooch"],
+    "url": "https://placehold.co/512x512/png?text=Kiss",
+    "mime": "image/png",
+    "animated": false,
+    "alt": "A demo sticker representing a small dog sending a kiss",
+    "tags": ["kiss", "affection", "happy"],
+    "tone": ["affectionate", "playful"],
+    "usage_note": "Use for a light affectionate reply.",
+    "avoid_when": ["unresolved serious conflict"],
+    "cooldown_turns": 10,
+    "review_status": "reviewed",
+    "enabled": true
+  },
+  {
+    "id": "demo-cat-question",
+    "pack": "Demo Cat",
+    "name": "Question",
+    "aliases": ["confused"],
+    "url": "https://placehold.co/512x512/png?text=Question",
+    "mime": "image/png",
+    "animated": false,
+    "alt": "A demo sticker representing a confused cat with a question mark",
+    "tags": ["question", "confused", "logic-check"],
+    "tone": ["confused", "playful"],
+    "usage_note": "Use when a claim or reasoning step is unclear.",
+    "avoid_when": [],
+    "cooldown_turns": 8,
+    "review_status": "reviewed",
+    "enabled": true
+  },
+  {
+    "id": "demo-bear-offline",
+    "pack": "Demo Bear",
+    "name": "Brain offline",
+    "aliases": ["overloaded"],
+    "url": "https://placehold.co/512x512/gif?text=Brain+Offline",
+    "mime": "image/gif",
+    "animated": true,
+    "alt": "A demo animated sticker representing a bear whose brain has gone offline",
+    "tags": ["offline", "overloaded", "mistake"],
+    "tone": ["self-deprecating", "playful"],
+    "usage_note": "Use after a harmless mistake or when mentally overloaded.",
+    "avoid_when": ["user needs a serious factual correction"],
+    "cooldown_turns": 12,
+    "review_status": "reviewed",
+    "enabled": true
+  }
+]

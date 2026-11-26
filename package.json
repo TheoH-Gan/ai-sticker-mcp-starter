@@ -1,0 +1,20 @@
+{
+  "name": "ai-sticker-mcp-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only semantic sticker catalog exposed through Streamable HTTP MCP",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js && node --check src/catalog.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
